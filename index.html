@@ -15,6 +15,10 @@
         <h1>به زودی شاهد قالب روباه می باشید.</h1>
     </div>
 
+    <div> <video controls muted width="440px" height="250px" poster="file/image/img.jpg">
+        <source src="./file/video/video1.mp4">
+    </video>
+    </div>
 
 
     <div class="main">
@@ -44,13 +48,17 @@
             <br><br>
             <label for="textarea">پیام : </label>
             <textarea rows="10" cols="50" name="text" id="textarea"></textarea>
+            <br><br>
+            <button>ارسال</button>
+
 
         </form>
     </div>
     <br>
-    <div class="sms-form">
-        <label for="city"> شهر</label>
-        <select name="city" id="city">
+    <form action="#">
+        <div class="sms-form">
+            <label for="city"> شهر</label>
+            <select name="city" id="city">
          <option value="item1">آذربایجان غربی</option>
          <option value="item2">آذربایجان شرقی</option>
          <option value="item3">اردبیل</option>
@@ -84,12 +92,12 @@
          <option value="item31">گیلان</option>
          <option value="item32">یزد</option>
      </select>
-        <br><br>
-        <label for="mobile">شماره تماس:</label>
-        <input type="tel" name="mobile" id="mobile">
-        <br><br>
-        <button>ارسال</button>
-
+            <br><br>
+            <label for="mobile">شماره تماس:</label>
+            <input type="tel" name="mobile" id="mobile">
+            <br><br>
+            <button>ارسال</button>
+    </form>
     </div>
     <div class="anchor-link ">
         <ul>

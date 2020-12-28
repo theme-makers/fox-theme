@@ -1,18 +1,21 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./libraries/bootstrap-5.0.0-beta1-dist/css/bootstrap.rtl.min.css">
 
     <title>Document</title>
 </head>
+
 <body>
-<div class="container">
-    <h1>به زودی شاهد قالب روباه می باشید.</h1>
-</div>
+    <div class="container">
+        <h1>به زودی شاهد قالب روباه می باشید.</h1>
+    </div>
+
+
 
     <div class="main">
         <h1>مدیریت گیت و گیت هاب</h1>
@@ -41,12 +44,52 @@
             <br><br>
             <label for="textarea">پیام : </label>
             <textarea rows="10" cols="50" name="text" id="textarea"></textarea>
-            <br><br>
-            <button>ارسال</button>
+
         </form>
     </div>
+    <br>
     <div class="sms-form">
-        خانم سبزچی در این قسمت یک فرم قرار بدیم که فرد شهره مورد نظر خودشو انتخابا کنه توسط یک دراپ باکس و سپس شماره موبایل وارد کنه
+        <label for="city"> شهر</label>
+        <select name="city" id="city">
+         <option value="item1">آذربایجان غربی</option>
+         <option value="item2">آذربایجان شرقی</option>
+         <option value="item3">اردبیل</option>
+         <option value="item4">اصفهان</option>
+         <option value="item5">ایلام</option>
+         <option value="item6">البرز</option>
+         <option value="item7">بوشهر</option>
+         <option value="item8">تهران</option>
+         <option value="item9">تهران بزرگ</option>
+         <option value="item10">خراسان جنوبی</option>
+         <option value="item11">خراسان رضوی</option>
+         <option value="item12">خراسان شمالی</option>
+         <option value="item13">خوزستان</option>
+         <option value="item14">زنجان</option>
+         <option value="item15">سمنان</option>
+         <option value="item16">سیستان و بلوچستان</option>
+         <option value="item17">فارس</option>
+         <option value="item18">قزوین</option>
+         <option value="item19">قم</option>
+         <option value="item20">لرستان</option>
+         <option value="item21">مازندران</option>
+         <option value="item22">مرکزی</option>
+         <option value="item23">هرمزگان</option>
+         <option value="item24">همدان</option>
+         <option value="item25">چهارمحال و بختیاری</option>
+         <option value="item26">کردستان</option>
+         <option value="item27">کرمان</option>
+         <option value="item28">کرمانشاه</option>
+         <option value="item29">کهکیلویه و بویراحمد</option>
+         <option value="item30">گلستان</option>
+         <option value="item31">گیلان</option>
+         <option value="item32">یزد</option>
+     </select>
+        <br><br>
+        <label for="mobile">شماره تماس:</label>
+        <input type="tel" name="mobile" id="mobile">
+        <br><br>
+        <button>ارسال</button>
+
     </div>
     <div class="anchor-link ">
         <ul>
@@ -119,8 +162,9 @@
     <footer>
         اقای عبدللهی یک لیست به عنوان منو یه فوتر اضافه کن که به چند صفحه خارجی لینک باشه فقط از bootstrap استفاده نکن فعلا
     </footer>
-  
-  
-<script src="./libraries/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="./libraries/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

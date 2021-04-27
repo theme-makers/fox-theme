@@ -24,7 +24,7 @@ body {
     width: 100%;
 }
 
-#slideshow .slide-item {
+#slideshow .slide-item img {
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;

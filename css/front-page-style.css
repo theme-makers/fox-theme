@@ -2,16 +2,16 @@
     font-style: normal;
     font-weight: normal;
     font-family: "iranyekan";
-    src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot");
-    src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebboldfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf") format("truetype");
+    src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot");
+    src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebregularfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "iranyekan";
     font-style: normal;
     font-weight: bold;
-    src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot");
-    src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebregularfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf") format("truetype");
+    src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot");
+    src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot?#iefix") format("embedded-opentype"), url("../fonts/iranyekan/woff/iranyekanwebboldfanum.woff") format("woff"), url("../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf") format("truetype");
 }
 
 body {
@@ -79,4 +79,29 @@ body {
     background: transparent;
     border: 1px solid #fd5f00;
     color: #fd5f00;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
+
+.bg-primary-color {
+    background: #0d1128;
+}
+
+.bg-secondary-color {
+    background: #ed5d29;
+}
+
+.card-item {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item p {
+    font-size: 14px;
+    text-align: center;
 }

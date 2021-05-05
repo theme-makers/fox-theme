@@ -1,0 +1,21 @@
+/*----------------category box slider-------------*/
+.bg-primary-color {
+    background: #0d1128;
+}
+
+.bg-secondary-color {
+    background: #ed5d29;
+}
+
+.card-item {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item p {
+    font-size: 14px;
+    text-align: center;
+}

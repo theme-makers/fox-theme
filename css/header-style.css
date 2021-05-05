@@ -1,0 +1,60 @@
+.header-section {
+    background-color: white;
+}
+
+
+.header-section .item-icon {
+    color: #fd5f00;
+    font-size: 1.5em;
+}
+
+.header-section .item-text .title {
+    font-weight: bold;
+}
+
+.header-section .item-text .link a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-section .item-text .link a:hover {
+    color: #fd5f00;
+    text-decoration: none;
+}
+
+.header-section .login-btn {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #fd5f00;
+    border: 1px solid #fd5f00;
+    padding: 8px 15px;
+    font-size: .7rem;
+    transition: .3s;
+}
+
+.header-section .login-btn:hover {
+    color: #fd5f00;
+    background: white;
+}
+
+.header-section .site-logo a {
+    text-decoration: none;
+}
+
+.header-section span {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.header-section .phone-number .item-text .link {
+    direction: ltr;
+}
+
+@media all and (max-width: 768px) {
+    .header-section .email-address, .header-section .phone-number, .header-section .login-btn {
+        font-size: .9em;
+    }
+}
+

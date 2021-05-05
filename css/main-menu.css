@@ -1,3 +1,10 @@
+.nav-bg{
+    background: #0D1128;
+}
+
+.nav-bg .navbar .menu-wrapper{
+    position: relative;
+}
 
 .box{
     background: transparent;
@@ -16,6 +23,10 @@
 }
 
 .form-box{
+    position: absolute;
+    top: -8px;
+    left: 12px;
+
     border: 1px solid rgba(255,255,255,0.1);
     border-radius: 30px;
     height: 54px;
@@ -31,10 +42,6 @@
     font-size: 20px;
 }
 
-.container-fluid{
-    padding: 0;
-}
-
 .navbar-toggler{
     border-color: unset;
     border: unset;
@@ -47,18 +54,13 @@
 .active{
     color: #fff;
 }
-
-.bg-dark{
-    padding: 10px 15px;
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fd5f00;
 }
 
 @media (min-width: 1024px){
     .active{
         color: #fd5f00 !important;
-    }
-
-    .active:hover{
-        color: #fff !important;
     }
 
     a{
@@ -75,5 +77,11 @@
 
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .form-box{
+        width: 200px;
     }
 }

@@ -1,0 +1,79 @@
+
+.box{
+    background: transparent;
+    border: 0;
+    height: 52px;
+    width: calc(100% - 52px);
+}
+
+.box:focus{
+    background: transparent;
+}
+
+.form-control:focus{
+    box-shadow: unset;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-box{
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 30px;
+    height: 54px;
+}
+
+.btn-box{
+    border: 0;
+    background: transparent;
+    width: 52px;
+}
+
+.btn-box span{
+    font-size: 20px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.navbar-toggler{
+    border-color: unset;
+    border: unset;
+}
+
+.navbar-toggler:focus{
+    box-shadow: unset;
+}
+
+.active{
+    color: #fff;
+}
+
+.bg-dark{
+    padding: 10px 15px;
+}
+
+@media (min-width: 1024px){
+    .active{
+        color: #fd5f00 !important;
+    }
+
+    .active:hover{
+        color: #fff !important;
+    }
+
+    a{
+        transition: .3s all ease !important;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        color: #fff;
+    }
+
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #fff;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 20px;
+    }
+}

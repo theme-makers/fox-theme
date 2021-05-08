@@ -1,10 +1,12 @@
 /*----------------main menu-------------*/
-#slideshow .slide-item{
+
+#slideshow .slide-item {
     height: 600px;
     transform: scale(.96);
     transition: .5s !important;
 }
-#slideshow .slide-item.slick-current{
+
+#slideshow .slide-item.slick-current {
     transform: scale(1);
 }
 
@@ -25,7 +27,7 @@
     z-index: 10;
 }
 
-#slideshow .container{
+#slideshow .container {
     position: relative;
     height: 100%;
 }
@@ -58,7 +60,7 @@
 }
 
 #slideshow .slide-item .item-content .item-button:hover {
-    background: transparent;
+    background: white;
     border: 1px solid #fd5f00;
     color: #fd5f00;
 }

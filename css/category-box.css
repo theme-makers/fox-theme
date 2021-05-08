@@ -1,4 +1,9 @@
 /*----------------category box slider-------------*/
+
+a:link {
+    text-decoration: none;
+}
+
 .bg-primary-color {
     background: #0d1128;
 }
@@ -15,7 +20,38 @@
     align-items: center;
 }
 
+.hover-effect:hover {
+    background: #131731;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+    border-radius: 32px;
+}
+
 .card-item p {
     font-size: 14px;
     text-align: center;
+}
+
+.card-item .h5 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+@media all and (max-width: 768px) {
+    .card-item {
+        flex-direction: column;
+    }
+    .first-box {
+        order: 1;
+    }
+    .second-box {
+        order: 2;
+    }
+    .third-box {
+        order: 4;
+    }
+    .forth-box {
+        order: 3;
+    }
 }

@@ -38,20 +38,8 @@ a:link {
     color: #ffffff;
 }
 
-@media all and (max-width: 768px) {
-    .card-item {
-        flex-direction: column;
-    }
-    .first-box {
-        order: 1;
-    }
-    .second-box {
-        order: 2;
-    }
+@media all and (min-width: 576px) and (max-width: 991px) {
     .third-box {
-        order: 4;
-    }
-    .forth-box {
-        order: 3;
+        order: 1;
     }
 }

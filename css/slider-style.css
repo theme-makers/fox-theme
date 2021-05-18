@@ -73,11 +73,13 @@
     margin-bottom: 0px;
 }
 
-ul.slick-dots>li button::before {
-    color: white !important;
-    font-size: 12px;
+ul.slick-dots > li button::before {
+    color: white;
+    font-size: 20px;
+    transition: .3s;
+    opacity: .5;
 }
 
-ul.slick-dots>li.slick-active button::before {
-    color: #fd6100 !important;
+ul.slick-dots > li.slick-active button::before {
+    color: #fd6100;
 }

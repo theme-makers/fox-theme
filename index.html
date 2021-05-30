@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="css/default-style.css">
     <link rel="stylesheet" href="css/front-page-style.css">
     <link rel="stylesheet" href="libraries/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>قالب روباه</title>
 </head>
 
-<body>
+<body onload="load()">
 
     <!--header section-->
     <header class="header-section">
@@ -56,6 +57,7 @@
             </div>
         </div>
     </header>
+
     <!--navbar section-->
     <section class="nav-bg">
         <nav class="navbar navbar-expand-lg navbar-dark py-3">
@@ -96,6 +98,7 @@
             </div>
         </nav>
     </section>
+
     <!--main slider-->
     <section id="slideshow">
         <div class="slide-item">
@@ -128,8 +131,8 @@
                 </div>
             </div>
         </div>
-
     </section>
+    
     <section class="row mx-0">
         <div class="col-sm-6 col-lg-3 bg-primary-color hover-effect first-box ">
             <a target="_blanck" href="https://colorlib.com/preview/#fox">
@@ -139,7 +142,6 @@
                     <p class="text-white px-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .</p>
                 </div>
             </a>
-
         </div>
         <div class="col-sm-6 col-lg-3 bg-secondary-color second-box">
             <a target="_blanck" href="https://colorlib.com/preview/#fox">
@@ -169,11 +171,77 @@
             </a>
         </div>
     </section>
+    
+    <!-- about section -->
+    <section id="parallax-box" class="about" >
+        <div class="container">
+            <div class="row mb-5 pb-2">
+                <div class="col-md-6 right-section pe-lg-5 pt-5 pt-lg-0 animated animatedFadeInUp fadeInUp">
+                    <h2 class="mb-4">دانشگاه</h2>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                </div>
+                <div class="col-md-6 d-flex order-first order-md-last">
+                    <div class="img d-flex align-items-center">
+                        <div class="video d-flex justify-content-center">
+                            <a href="#" class="icon-video d-flex align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <span class="fas fa-play"></span>
+                            </a>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-xl">
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            <video controls width="100%">
+                                                <source src="img/mov_bbb.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-md-flex justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <div class="row d-md-flex align-items-center justify-content-center">
+                        <div class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                            <div>
+                                <strong class="number text-center" id='0101'>50</strong>
+                                <span class="text text-center">جوایز</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                            <div>
+                                <strong class="number text-center" id='0102'>30</strong>
+                                <span class="text text-center">دوره های آموزشی</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                            <div>
+                                <strong class="number text-center" id='0103'>401</strong>
+                                <span class="text text-center">دانش آموزان</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                            <div>
+                                <strong class="number text-center" id='0104'>18</strong>
+                                <span class="text text-center">استادان معتبر</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="libraries/jquery-3.6.0.min.js"></script>
     <script src="libraries/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="libraries/slick-1.8.1/slick/slick.min.js"></script>
     <script src="js/front-page.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/parallax.js"></script>
 </body>
 
 </html>

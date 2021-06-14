@@ -12,5 +12,3 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('scroll', function () {
     changePosition();
 });
-
-console.log('amir');

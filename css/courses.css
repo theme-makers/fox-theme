@@ -1,0 +1,45 @@
+ .container-courses {
+     padding-top: 8em;
+     padding-bottom: 8rem;
+ }
+ 
+ .images-box {
+     padding: 1em;
+ }
+ 
+ .images-box img {
+     width: 100%;
+     height: 300px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ 
+ .images-box .button-style {
+     background: #fd5f00;
+     border: 1px solid #fd5f00;
+     color: #fff;
+ }
+ 
+ .images-box .button-style:hover {
+     background: white;
+     border: 1px solid #fd5f00;
+     color: #fd5f00;
+ }
+ 
+ .icons i {
+     color: #fd5f00;
+ }
+ 
+ .text .icons {
+     font-size: 12px;
+     margin-bottom: 1rem;
+     letter-spacing: 1px;
+     font-weight: 600;
+     display: flex !important;
+ }
+ 
+ .text h3 {
+     font-size: 22px;
+     font-weight: 600;
+ }

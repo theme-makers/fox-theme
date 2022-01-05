@@ -9,7 +9,7 @@
  
  .images-box img {
      max-width: 100%;
-     height: 300px;
+     height: auto;
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;

@@ -1,23 +1,30 @@
 * {
     box-sizing: border-box;
 }
+.card{
+    border: none;
+}
+.date span::after{
+    content: '';
+    
+    
+
+}
 .card-img-top {
     max-width: 100%;
+    object-fit: cover;
+}
+
 }
 .card-title {
     font-size: 20px;
     font-weight: 700;
-}
-.card{
-    border: none;
-
-}
-.card-body {
-    margin-top: -59px;
+    margin-top: 10px;
 }
 .card-text {
-    margin-top: 18px;
+    margin-top: 15px;
 }
+
 .text-footer {
     margin-top: 34px;
 }
@@ -41,41 +48,16 @@
     vertical-align: middle;
     margin-right: 3px;
 }
-}
-.space {
-    margin: 8rem; 
-    color: #fd5f00;
-}
 .fa-comment-dots {
-    color: rgb(192, 189, 189);
+    color: #b3b3b3;
 }
-.color {
-    color: rgb(192, 189, 189); 
-} 
-.date {
-    background-color: rgb(138,43,226,0.7);
-    max-width: 46px;
-    position: relative;
-    left: 0;
-    right: 326px;
-    bottom: 78px;
-    color: #fff;
-    display: inline-block;
+.color{
+    color: #b3b3b3
 }
-.day {
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-}   
-.mos {
-    display: block;
-    font-size:16px;
+.icon{
+    margin-right: 4rem;
 }
-.yr {
-    display: block;
-    font-size:16px;
-    font-weight: ;
-    
-} 
+
+
      
     

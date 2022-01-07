@@ -3,6 +3,7 @@
 }
 .container-fluid {
     max-width: 1140px;
+    background: #fafafa;
 }
 .head-blog h2 {
     font-size: 40px;
@@ -12,11 +13,8 @@
 .card{
     border: none;
 }
-.date span::after{
-    content: '';
-    
-    
-
+.card-body {
+    background-color: #fff;
 }
 .card-img-top {
     max-width: 100%;
@@ -34,9 +32,6 @@
     text-align: justify;
 }
 
-.text-footer {
-    margin-top: 34px;
-}
 .btn-primary {
     background: #fd5f00;
     border: 1px solid #fd5f00;
@@ -60,11 +55,8 @@
 .fa-comment-dots {
     color: #b3b3b3;
 }
-.color{
-    color: #b3b3b3
-}
-.icon{
-    margin-right: 7rem;    
+.card-link {
+    vertical-align: middle;
 }
 
 

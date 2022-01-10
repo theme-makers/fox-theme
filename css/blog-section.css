@@ -1,11 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.my-boxs {
-    background: #fafafa;
-}
-.container-fluid {
-    max-width: 1140px;
+.gray-background {
     background: #fafafa;
 }
 .head-blog h2 {
@@ -111,6 +107,9 @@
     }
     .card-body h4{
         font-size: 15px;
+    }
+    .card-text{
+        font-size: 14px;
     }
     
 }

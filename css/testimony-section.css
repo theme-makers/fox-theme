@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.gray-background{
+    background: #fafafa;
+    padding: 100px;
+}
+.head-section p {
+    margin-top:3em;
+}
+.owl-carousel.owl-rtl {
+    margin-top: 6rem;
+    text-align: center;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.owl-carousel .owl-item img {
+    width:100px;
+    height: 100px;
+    margin-left: 2em;
+    margin-top: 1.5em;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.text-owl {
+    background: url("../img/owl/quote.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100px;
+}
+.text-owl p {
+    margin-top: 2.5em;
+    color: rgba(0,0,0,.8);
+    text-align: justify;
+}
+.testimony {
+    text-align: right;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+    margin-right: 2em;
+}

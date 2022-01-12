@@ -26,12 +26,6 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.text-owl {
-    background: url("../img/owl/quote.svg");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 100px;
-}
 .text-owl p {
     margin-top: 2.5em;
     color: rgba(0,0,0,.8);
@@ -43,4 +37,10 @@
     color: #000;
     font-weight: bold;
     margin-right: 2em;
+}
+.text-color {
+    color: #fd5f00;
+}
+.gap-image {
+    --bs-gutter-x: 0;
 }

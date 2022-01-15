@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/front-page-style.css" />
     <link rel="stylesheet" href="libraries/fontawesome-free-5.15.3-web/css/all.css" />
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/request-quote.css">
     <title>قالب روباه</title>
 </head>
 
@@ -570,8 +571,60 @@
             </div>
         </div>
     </section>
+    <!-- request quote section -->
+    <section class="request-section">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-6 py-5 px-md-5">
+                    <div class="mb-5 request-title pt-5">
+                        <h2 class="mb-4">استعلام قیمت</h2>
+                        <p>لورم ایپسوم متن ساختگی با تولید
+                            سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                            روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                        </p>
+                    </div>
+                    <form action="#" class="pb-5">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" placeholder="نام" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" placeholder="نام خانوادگی" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 position-relative">
+                                <div class="select-course-icon">
+                                    <span class="fas fa-angle-down arrow-down"></span>
+                                </div>
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected>انتخاب دوره</option>
+                                    <option value="art">هنرهای تجسمی</option>
+                                    <option value="language">زبان های خارجی</option>
+                                    <option value="music">موزیک</option>
+                                    <option value="sport">ورزش</option>
+                                    <option value="other">دیگر دوره ها</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="تلفن">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <textarea cols="30" rows="2" placeholder="متن پیام" class="form-control request-textarea"></textarea>
+                            </div>
+                            <div class="col-md-6 request-btn">
+                                <input type="submit" value="استعلام قیمت" class="btn btn-primary py-3 px-4">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--define blog-section -->
-    <section class="gray-background">
+    <section class="gray-background mb-5">
         <div class="container">
             <div class="row">
                 <div class="head-blog text-center w-75 mx-auto mb-5">
@@ -581,7 +634,7 @@
                         اربردی می باشد.</p>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row">
                 <div class="col-md-4 col-sm-12 col-lg-4">
                     <div class="card mb-3">
                         <div class="position-relative">
@@ -667,8 +720,7 @@
             </div>
         </div>
     </section>
-
-
+    
 
     <script src="libraries/jquery-3.6.0.min.js"></script>
     <script src="libraries/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>

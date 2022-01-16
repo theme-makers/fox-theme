@@ -69,5 +69,6 @@
 .gap-image {
     --bs-gutter-x: 0;
 }
-
-
+@media screen and(){
+    
+}

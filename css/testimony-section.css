@@ -89,3 +89,8 @@
         padding: 42px;
     }
 }
+@media screen and (max-width:1200px) {
+    .gallery img {
+        width: 100%;
+    }
+}

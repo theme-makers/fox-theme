@@ -67,6 +67,10 @@
 .text-color {
     color: #fd5f00;
 }
+
+.item-card img {
+    width:100%;
+}
 .gap-image {
     --bs-gutter-x: 0;
 }

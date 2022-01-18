@@ -24,7 +24,7 @@
     margin-left: 2em;
     margin-top: 1.5em;
     border-radius: 50%;
-    object-fit: fill;
+    object-fit: cover;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;

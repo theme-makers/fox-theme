@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.gray-background{
+    background: #fafafa;
+}
+.container {
+    margin-top: 15px;
+}
+
 .head-section p {
     margin-top:3em;
 }
@@ -8,41 +18,39 @@
 }
 
 .owl-carousel .owl-item img {
-    width:100px;
-    height: 100px;
+    width:200px;
+    height: 110px;
+    overflow: hidden;
     margin-left: 2em;
     margin-top: 1.5em;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: fill;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
 
-.item {
+.item-card {
     display:flex;
 }
-.text-owl::after{
-    content: "";
-    display: block;
-    background: url('../img/owl/chat-quote.svg');
-    width:50px;
-    height: 50px;   
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 2px;
-    right: 66px;
-    z-index: 5;
-    opacity: 0.1;
-    background-size: 3em;
-}
 
-.text-owl{
+.text-quote {
     z-index: 10;
+    position: relative;
 }
 
-.text-owl p {
+.text-quote .fas {
+    font-size: 50px;
+    color: #e8e6fd;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: -1;
+}
+
+
+.text-quote p {
     margin-top: 2.5em;
     color: rgba(0,0,0,.8);
     text-align: justify;
@@ -67,7 +75,7 @@
         display: block;
         text-align: -webkit-center;
     }
-    .text-owl::after{
+    .text-quote::after{
         top: 113px;
         right: 30%;
     }

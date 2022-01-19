@@ -7,14 +7,6 @@
      padding: 1em;
  }
  
- .images-box img {
-     max-width: 100%;
-     height: auto;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center;
- }
- 
  .images-box .button-style {
      background: #fd5f00;
      border: 1px solid #fd5f00;

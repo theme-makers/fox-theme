@@ -1,0 +1,13 @@
+.bg-footer {
+    background-color: #232323;
+}
+.list-group ul i {
+    vertical-align: middle;
+    line-height: 3em;
+    margin-left: 13px;
+}
+.media img {
+    margin-left: 2em;
+    max-width: 64px;
+    max-height: 64px;
+}

@@ -1,24 +1,68 @@
 .bg-footer {
     background-color: #232323;
 }
+.media {
+    margin-top: 4em;
+}
+.footer-links {
+    margin: 4em 2em;
+}
 .list-group ul i {
     vertical-align: middle;
     line-height: 3em;
     margin-left: 13px;
+    color: #FFFFFF;
+}
+.list-group ul li a {
+    color: rgb(131,158,186);
 }
 .media img {
     margin-left: 2em;
     max-width: 64px;
     max-height: 64px;
 }
+.media .media-body p a{
+    color: rgb(131,158,186);
+}
+.media .media-body span {
+    color: #808080;
+}
 .media-body span i {
     vertical-align: middle;
     margin-left: 8px;
 }
+.footer-links ul li a {
+    color: rgb(131,158,186);
+}
 .footer-links ul li i {
     vertical-align: middle;
     margin-left: 4px;
+    font-size: 10px;
 }
 .footer-links ul li i a {
     line-height: 2em;
+}
+.form-control {
+    text-align: end;
+    margin-top: 4em;
+    border: 1px solid #fd5f00;
+}
+.subscribe {
+    background-color: transparent;
+    border: 1px solid #808080;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px; 
+}
+.social span i {
+    font-size: 30px;
+    margin-right: 15px;
+}
+.social span i:hover {
+    color: #808080;
+    cursor: pointer;
+}
+.copyright {
+    color: #808080;
 }

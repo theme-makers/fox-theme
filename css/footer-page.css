@@ -8,9 +8,6 @@
     margin-right: -8px;
     font-size:12px;
 }
-.footer-links {
-    margin: 4em 2em;
-}
 .list-group ul i {
     vertical-align: middle;
     line-height: 3em;
@@ -51,6 +48,9 @@
 .number {
     font-size:12px;
     margin-right: -8px;
+}
+.footer-links {
+    margin: 4em 2em;
 }
 .footer-links ul li a {
     color: rgb(131,158,186);
@@ -101,4 +101,58 @@ footer input::placeholder{
 }
 .copyright {
     color: #808080;
+}
+@media screen and (max-width:992px) {
+    .media .media-body p a{
+        color: rgb(131,158,186);
+        font-size: 10px;
+        text-align: justify;
+    }
+    .media img {
+        max-width: 64px;
+        max-height: 64px;
+
+    }
+    .media .media-body span {
+        color: #808080;
+        font-size: 10px;
+    }
+    .question {
+        font-size:15px;
+    }
+    .recent-page {
+        font-size:15px;
+    }
+    .links-footer {
+        font-size:15px;
+    }
+    .subscribe-me {
+        font-size:15px;
+    }
+    .list-group ul li a {
+        font-size: 11px;
+    }
+    .list-group ul i {
+        vertical-align: middle;
+        line-height: 2em;
+        margin-left: 5  px;
+        color: #FFFFFF;
+    }   
+}
+@media screen and (max-width:768px) {
+    .links-footer {
+        margin-top: 3em;
+    }
+    .footer-links {
+        margin: 2em 0;
+    }
+    form .subscribe-me{
+        margin-bottom: 1em; 
+        margin-top: 4em;
+    } 
+}
+@media screen and (max-width:553px) {
+    .copyright {
+        font-size:11px
+    }
 }

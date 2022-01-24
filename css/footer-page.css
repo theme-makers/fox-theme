@@ -84,6 +84,9 @@ footer input::placeholder{
     border-bottom-left-radius: 2px;
 
 }
+.subscribe:focus {
+    background-color: transparent;
+}
 .social span i {
     font-size: 25px;
     margin-right: 7px;

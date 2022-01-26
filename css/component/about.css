@@ -1,5 +1,5 @@
 .about {
-    background-image: url(../img/bg_3.jpg);
+    background-image: url(../../img/bg_3.jpg);
     position: relative;
     z-index: 0;
     background-size: cover;
@@ -31,7 +31,7 @@
 }
 
 .about .img {
-    background-image: url(../img/about-2.jpg);
+    background-image: url(../../img/about-2.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;

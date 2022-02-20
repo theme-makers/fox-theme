@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.hero-wrap.hero-wrap-2 {
+    height: 300px;
+    background-image: url("../../img/image courses/1.jpg");
+    margin-top: -15px;;
+}
+.hero-wrap {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .3;
+    background: #f1453d;
+}
+.title-about {
+    margin-top: 2em;
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+.title-p {
+    color: #fff;
+}
+.container-courses .space {
+    margin-top: -49px;
+}

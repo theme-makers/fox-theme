@@ -2,840 +2,935 @@
 <html lang="fa" dir="rtl">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="libraries/bootstrap-5.0.0-beta3-dist/css/bootstrap.rtl.min.css" />
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="libraries/bootstrap-5.0.0-beta3-dist/css/bootstrap.rtl.min.css"/>
     <link rel="stylesheet" href="libraries/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="libraries/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="libraries/fontawesome-free-5.15.3-web/css/all.min.css" />
-    <link rel="stylesheet" href="libraries/slick-1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="libraries/slick-1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" href="css/default-style.css" />
-    <link rel="stylesheet" href="css/front-page-style.css" />
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/request-quote.css">
+    <link rel="stylesheet" href="libraries/fontawesome-free-5.15.3-web/css/all.min.css"/>
+    <link rel="stylesheet" href="libraries/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="libraries/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/pages/default-style.css"/>
+    <link rel="stylesheet" href="css/pages/front-page-style.css"/>
 
     <title>قالب روباه</title>
 </head>
 
 <body>
 
-    <!--header section-->
-    <header class="header-section">
-        <div class="container-md">
-            <div class="row align-items-center">
-                <div class="col-lg-3 my-3">
-                    <div class="site-logo">
-                        <a href="#"><img src="img/header/logo.svg" alt="روباه" width="80px" height="80px" />
-                            <span>روباه</span>
+<!--header section-->
+<header class="header-section">
+    <div class="container-md">
+        <div class="row align-items-center">
+            <div class="col-lg-3 my-3">
+                <div class="site-logo">
+                    <a href="#"><img src="img/header/logo.svg" alt="روباه" width="80px" height="80px"/>
+                        <span>روباه</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 my-1 my-sm-3">
+                <div class="email-address">
+                    <div class="d-flex align-items-center">
+                        <div class="item-icon">
+                            <i class="fab fa-telegram-plane"></i>
+                        </div>
+                        <div class="item-text ms-2">
+                            <div class="title">پست الکترونیکی</div>
+                            <div class="link">
+                                <a href="mailto: youremail@email.com">youremail@email.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 my-1 my-sm-3">
+                <div class="phone-number">
+                    <div class="d-flex align-items-center">
+                        <div class="item-icon"><i class="fas fa-phone"></i></div>
+                        <div class="item-text ms-2">
+                            <div class="title">تلفن</div>
+                            <div class="link">
+                                <a href="tel:+9802188776655">+98 021 88776655</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3 my-2 text-end">
+                <a href="#" class="login-btn d-inline-block">ثبت نام کنید</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--navbar section-->
+<section class="nav-bg">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+        <div class="container-md menu-wrapper">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">دوره های آموزشی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">اعضا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">وبلاگ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="#" class="form-box">
+                <div class="d-flex">
+                    <input type="search" placeholder="جستجو" class="form-control box"/>
+                    <button type="submit" class="form-control btn-box">
+                        <span class="fa fa-search text-muted"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </nav>
+</section>
+
+
+<!--main slider-->
+<section id="slideshow">
+    <div class="slide-item">
+        <div class="overlay"></div>
+        <img src="./img/1.jpg">
+        <div class="item-content">
+            <div class="container px-0">
+                <h3 class="item-title mb-4 text-white">
+                    آموزش و پرورش به راه حل کامل نیاز دارد
+                </h3>
+                <p class="item-description text-white">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                    و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                </p>
+                <a class="item-button btn px-4 py-2 rounded-pill" target="_blanck"
+                   href="https://colorlib.com/preview/#fox">
+                    تماس باما
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="slide-item">
+        <div class="overlay"></div>
+        <img src="./img/2.jpg">
+        <div class="item-content">
+            <div class="container px-0">
+                <h3 class="item-title mb-4 text-white">دانشگاه ، آموزش دانشکده</h3>
+                <p class="item-description text-white">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                    و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                </p>
+                <a class="item-button btn px-4 py-2 rounded-pill" target="_blanck"
+                   href="https://colorlib.com/preview/#fox">
+                    تماس باما
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--category box-->
+<section class="container-fluid px-0">
+    <div class="row g-0">
+        <div class="col-sm-6 col-lg-3 first-box">
+            <a href="" class="category-item bg-primary-color py-4 px-3">
+                <div class="card-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h4 class="title my-3">اساتید معتبر</h4>
+                    <p class="text">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 second-box">
+            <a href="" class="category-item bg-secondary-color py-4 px-3">
+                <div class="card-item">
+                    <i class="fas fa-school"></i>
+                    <h4 class="title my-3">آموزش ویژه</h4>
+                    <p class="text">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 third-box">
+            <a href="" class="category-item bg-primary-color py-4 px-3">
+                <div class="card-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h4 class="title my-3">فارغ التحصیلان</h4>
+                    <p class="text">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 forth-box">
+            <a href="" class="category-item bg-secondary-color py-4 px-3">
+                <div class="card-item">
+                    <i class="fas fa-user-graduate"></i>
+                    <h4 class="title my-3">دانشجویان نمونه</h4>
+                    <p class="text">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!--Offer section-->
+<section class="container offer-section">
+    <div class="row">
+        <div class="col-md-7 order-1 order-md-0 d-flex flex-column justify-content-center">
+            <div class="offer-detail my-5">
+                <h2 class="title">چیزی که ما پیشنهاد میدیم</h2>
+                <p class="text">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                </p>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title">اول ایمنی</h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title"> کلاسهای منظم</h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title">اساتید معتبر</h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-chalkboard"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title">کلاسهای درس کافی</h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title">دروس خلاق
+                            </h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <div class="offer-item d-flex">
+                        <div class="
+                    item-icon
+                    rounded-circle
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                  ">
+                            <i class="fas fa-running"></i>
+                        </div>
+                        <div class="text">
+                            <h5 class="title">امکانات ورزشی</h5>
+                            <p class="abstract">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک
+                                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-5">
+            <div class="offer-image h-100">
+                <img src="./img/offer/img3.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- about section -->
+<section class="about parallax-box">
+    <div class="container">
+        <div class="row mb-5 pb-2">
+            <div class="col-md-6 right-section pe-lg-5 pt-5 pt-lg-0 animated animatedFadeInUp fadeInUp">
+                <h2 class="mb-4">دانشگاه</h2>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                    و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+                    و
+                    آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+                    رایانه
+                    ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+                    و
+                    کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+            </div>
+            <div class="col-md-6 d-flex order-first order-md-last">
+                <div class="img d-flex align-items-center">
+                    <div class="video d-flex justify-content-center">
+                        <a href="#" class="icon-video d-flex align-items-center justify-content-center"
+                           data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <span class="fas fa-play"></span>
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-4 col-lg-3 my-1 my-sm-3">
-                    <div class="email-address">
-                        <div class="d-flex align-items-center">
-                            <div class="item-icon">
-                                <i class="fab fa-telegram-plane"></i>
-                            </div>
-                            <div class="item-text ms-2">
-                                <div class="title">پست الکترونیکی</div>
-                                <div class="link">
-                                    <a href="mailto: youremail@email.com">youremail@email.com</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3 my-1 my-sm-3">
-                    <div class="phone-number">
-                        <div class="d-flex align-items-center">
-                            <div class="item-icon"><i class="fas fa-phone"></i></div>
-                            <div class="item-text ms-2">
-                                <div class="title">تلفن</div>
-                                <div class="link">
-                                    <a href="tel:+9802188776655">+98 021 88776655</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-lg-3 my-2 text-end">
-                    <a href="#" class="login-btn d-inline-block">ثبت نام کنید</a>
-                </div>
             </div>
         </div>
-    </header>
-
-    <!--navbar section-->
-    <section class="nav-bg">
-        <nav class="navbar navbar-expand-lg navbar-dark py-3">
-            <div class="container-md menu-wrapper">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link active">صفحه اصلی</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">درباره ما</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">دوره های آموزشی</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">اعضا</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">وبلاگ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">تماس با ما</a>
-                        </li>
-                    </ul>
-                </div>
-                <form action="#" class="form-box">
-                    <div class="d-flex">
-                        <input type="search" placeholder="جستجو" class="form-control box" />
-                        <button type="submit" class="form-control btn-box">
-                            <span class="fa fa-search text-muted"></span>
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </nav>
-    </section>
-
-
-    <!--main slider-->
-    <section id="slideshow">
-        <div class="slide-item">
-            <div class="overlay"></div>
-            <img src="./img/1.jpg">
-            <div class="item-content">
-                <div class="container px-0">
-                    <h3 class="item-title mb-4 text-white">
-                        آموزش و پرورش به راه حل کامل نیاز دارد
-                    </h3>
-                    <p class="item-description text-white">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                    </p>
-                    <a class="item-button btn px-4 py-2 rounded-pill" target="_blanck"
-                        href="https://colorlib.com/preview/#fox">
-                        تماس باما
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="slide-item">
-            <div class="overlay"></div>
-            <img src="./img/2.jpg">
-            <div class="item-content">
-                <div class="container px-0">
-                    <h3 class="item-title mb-4 text-white">دانشگاه ، آموزش دانشکده</h3>
-                    <p class="item-description text-white">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                    </p>
-                    <a class="item-button btn px-4 py-2 rounded-pill" target="_blanck"
-                        href="https://colorlib.com/preview/#fox">
-                        تماس باما
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--category box-->
-    <section class="container-fluid px-0">
-        <div class="row g-0">
-            <div class="col-sm-6 col-lg-3 first-box">
-                <a href="" class="category-item bg-primary-color py-4 px-3">
-                    <div class="card-item">
-                        <i class="fas fa-chalkboard-teacher"></i>
-                        <h4 class="title my-3">اساتید معتبر</h4>
-                        <p class="text">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 second-box">
-                <a href="" class="category-item bg-secondary-color py-4 px-3">
-                    <div class="card-item">
-                        <i class="fas fa-school"></i>
-                        <h4 class="title my-3">آموزش ویژه</h4>
-                        <p class="text">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 third-box">
-                <a href="" class="category-item bg-primary-color py-4 px-3">
-                    <div class="card-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4 class="title my-3">فارغ التحصیلان</h4>
-                        <p class="text">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                        </p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-lg-3 forth-box">
-                <a href="" class="category-item bg-secondary-color py-4 px-3">
-                    <div class="card-item">
-                        <i class="fas fa-user-graduate"></i>
-                        <h4 class="title my-3">دانشجویان نمونه</h4>
-                        <p class="text">
-                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                        </p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-
-    <!--Offer section-->
-    <section class="container offer-section">
-        <div class="row">
-            <div class="col-md-7 order-1 order-md-0 d-flex flex-column justify-content-center">
-                <div class="offer-detail my-5">
-                    <h2 class="title">چیزی که ما پیشنهاد میدیم</h2>
-                    <p class="text">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                    </p>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-clipboard-check"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title">اول ایمنی</h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-book-reader"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title"> کلاسهای منظم</h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-chalkboard-teacher"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title">اساتید معتبر</h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-chalkboard"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title">کلاسهای درس کافی</h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-puzzle-piece"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title">دروس خلاق
-                                </h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <div class="offer-item d-flex">
-                            <div class="
-                    item-icon
-                    rounded-circle
-                    d-flex
-                    justify-content-center
-                    align-items-center
-                  ">
-                                <i class="fas fa-running"></i>
-                            </div>
-                            <div class="text">
-                                <h5 class="title">امکانات ورزشی</h5>
-                                <p class="abstract">
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک
-                                    است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است .
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-5">
-                <div class="offer-image h-100">
-                    <img src="./img/offer/img3.jpg">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- about section -->
-    <section class="about parallax-box">
-        <div class="container">
-            <div class="row mb-5 pb-2">
-                <div class="col-md-6 right-section pe-lg-5 pt-5 pt-lg-0 animated animatedFadeInUp fadeInUp">
-                    <h2 class="mb-4">دانشگاه</h2>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
-                        و
-                        آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
-                        رایانه
-                        ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</p>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        و
-                        کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
-                </div>
-                <div class="col-md-6 d-flex order-first order-md-last">
-                    <div class="img d-flex align-items-center">
-                        <div class="video d-flex justify-content-center">
-                            <a href="#" class="icon-video d-flex align-items-center justify-content-center"
-                                data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <span class="fas fa-play"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-md-flex justify-content-center align-items-center counter_box" id="counterBox">
-                <div class="col-lg-12">
-                    <div class="row d-md-flex align-items-center justify-content-center">
-                        <div
+        <div class="row d-md-flex justify-content-center align-items-center counter_box"
+             id="counterBox">
+            <div class="col-lg-12">
+                <div class="row d-md-flex align-items-center justify-content-center">
+                    <div
                             class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
-                            <div>
-                                <strong class="number text-center" id='0101'>-</strong>
-                                <span class="text text-center">جوایز</span>
-                            </div>
-                        </div>
-                        <div
-                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
-                            <div>
-                                <strong class="number text-center" id='0102'>-</strong>
-                                <span class="text text-center">دوره های آموزشی</span>
-                            </div>
-                        </div>
-                        <div
-                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
-                            <div>
-                                <strong class="number text-center" id='0103'>-</strong>
-                                <span class="text text-center">دانش آموزان</span>
-                            </div>
-                        </div>
-                        <div
-                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
-                            <div>
-                                <strong class="number text-center" id='0104'>-</strong>
-                                <span class="text text-center">استادان معتبر</span>
-                            </div>
+                        <div>
+                            <strong class="number text-center" id='0101'>-</strong>
+                            <span class="text text-center">جوایز</span>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <div
+                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                        <div>
+                            <strong class="number text-center" id='0102'>-</strong>
+                            <span class="text text-center">دوره های آموزشی</span>
+                        </div>
+                    </div>
+                    <div
+                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                        <div>
+                            <strong class="number text-center" id='0103'>-</strong>
+                            <span class="text text-center">دانش آموزان</span>
+                        </div>
+                    </div>
+                    <div
+                            class="col-md-3 counter d-flex justify-content-center align-items-center animated animatedFadeInUp fadeInUp">
+                        <div>
+                            <strong class="number text-center" id='0104'>-</strong>
+                            <span class="text text-center">استادان معتبر</span>
+                        </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <video controls width="100%">
-                        <source src="img/mov_bbb.mp4" type="video/mp4">
-                    </video>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
 
-
-    <!--our courses-->
-    <section class="container-courses">
-        <div class="row justify-content-center pb-2 mb-4 g-0">
-            <div class="col-md-8 text-center">
-                <h2 class="mb-4 bold">دوره های ما</h2>
-                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
-                    و
-                    متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <video controls width="100%">
+                    <source src="img/mov_bbb.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
-        <div class="row g-0">
-            <div class="col-sm-6 col-lg-3 images-box">
-                <img src="./img/our-cources/xcourse-2.jpg.pagespeed.ic.tULEbOks4w.webp.jpg">
-                <div class="text pt-4">
-                    <div class="icons">
-                        <div class="personal">
+    </div>
+</div>
+
+
+<!--our courses-->
+<section class="container-courses">
+    <div class="row justify-content-center pb-2 mb-4 g-0">
+        <div class="col-md-8 text-center">
+            <h2 class="mb-4 bold">دوره های ما</h2>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
+                و
+                متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+        </div>
+    </div>
+    <div class="row g-0">
+        <div class="col-sm-6 col-lg-3 images-box">
+            <img src="./img/our-cources/xcourse-2.jpg.pagespeed.ic.tULEbOks4w.webp.jpg">
+            <div class="text pt-4">
+                <div class="icons">
+                    <div class="personal">
                             <span>
                                 <i class="fas fa-user mr-2"></i>
                                 فائزه
                             </span>
-                            <span>
+                        <span>
                                 <i class="fas fa-table mr-2"></i>
                                 احسانی
                             </span>
-                            <span>
+                        <span>
                                 <i class="far fa-calendar-alt mr-2"></i>
                                 22 ساله
                             </span>
-                        </div>
                     </div>
-                    <h3> مهندسی الکترونیک</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
-                    <p>
-                        <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
-                            href="https://colorlib.com/preview/#fox">اعمال کردن</a>
-                    </p>
-
                 </div>
+                <h3> مهندسی الکترونیک</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+                <p>
+                    <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
+                       href="https://colorlib.com/preview/#fox">اعمال کردن</a>
+                </p>
+
             </div>
+        </div>
 
-            <div class="col-sm-6 col-lg-3 images-box">
-                <div class="cources-image">
-                    <img src="./img/our-cources/xcourse-4.jpg.pagespeed.ic.waS01AiYnQ.webp.jpg">
-                </div>
-                <div class="text pt-4">
-                    <div class="icons d-flex">
-                        <div class="personal">
+        <div class="col-sm-6 col-lg-3 images-box">
+            <div class="cources-image">
+                <img src="./img/our-cources/xcourse-4.jpg.pagespeed.ic.waS01AiYnQ.webp.jpg">
+            </div>
+            <div class="text pt-4">
+                <div class="icons d-flex">
+                    <div class="personal">
                             <span>
                                 <i class="fas fa-user mr-2"></i>
                                 سمانه
                             </span>
-                            <span>
+                        <span>
                                 <i class="fas fa-table mr-2"></i>
                                 نوروزی
                             </span>
-                            <span>
+                        <span>
                                 <i class="far fa-calendar-alt mr-2"></i>
                                 28 ساله
                             </span>
-                        </div>
                     </div>
-                    <h3> مهندسی کامپیوتر</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
-                    <p>
-                        <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
-                            href="https://colorlib.com/preview/#fox">اعمال کردن</a>
-                    </p>
                 </div>
+                <h3> مهندسی کامپیوتر</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+                <p>
+                    <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
+                       href="https://colorlib.com/preview/#fox">اعمال کردن</a>
+                </p>
             </div>
+        </div>
 
-            <div class="col-sm-6 col-lg-3 images-box">
-                <img src="./img/our-cources/xcourse-2.jpg.pagespeed.ic.tULEbOks4w.webp.jpg">
-                <div class="text pt-4">
-                    <div class="icons">
-                        <div class="personal">
+        <div class="col-sm-6 col-lg-3 images-box">
+            <img src="./img/our-cources/xcourse-2.jpg.pagespeed.ic.tULEbOks4w.webp.jpg">
+            <div class="text pt-4">
+                <div class="icons">
+                    <div class="personal">
                             <span>
                                 <i class="fas fa-user mr-2"></i>
                                 امیر
                             </span>
-                            <span>
+                        <span>
                                 <i class="fas fa-table mr-2"></i>
                                 جمشیدی
                             </span>
-                            <span>
+                        <span>
                                 <i class="far fa-calendar-alt mr-2"></i>
                                 35 ساله
                             </span>
-                        </div>
                     </div>
-                    <h3>مهندسی معماری</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
-                    <p>
-                        <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
-                            href="https://colorlib.com/preview/#fox">اعمال کردن</a>
-                    </p>
                 </div>
+                <h3>مهندسی معماری</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+                <p>
+                    <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
+                       href="https://colorlib.com/preview/#fox">اعمال کردن</a>
+                </p>
             </div>
+        </div>
 
-            <div class="col-sm-6 col-lg-3 images-box">
-                <img src="./img/our-cources/xcourse-4.jpg.pagespeed.ic.waS01AiYnQ.webp.jpg">
-                <div class="text pt-4">
-                    <div class="icons">
-                        <div class="personal">
+        <div class="col-sm-6 col-lg-3 images-box">
+            <img src="./img/our-cources/xcourse-4.jpg.pagespeed.ic.waS01AiYnQ.webp.jpg">
+            <div class="text pt-4">
+                <div class="icons">
+                    <div class="personal">
                             <span>
                                 <i class="fas fa-user mr-2"></i>
                                 نازنین
                             </span>
-                            <span>
+                        <span>
                                 <i class="fas fa-table mr-2"></i>
                                 سبزچی
                             </span>
-                            <span>
+                        <span>
                                 <i class="far fa-calendar-alt mr-2"></i>
                                 26 ساله
                             </span>
-                        </div>
                     </div>
-                    <h3>مهندسی پزشکی</h3>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                        چاپگرها
-                        و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
-                    <p>
-                        <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
-                            href="https://colorlib.com/preview/#fox">اعمال کردن</a>
+                </div>
+                <h3>مهندسی پزشکی</h3>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                    چاپگرها
+                    و متون بلکه روزنامه و مجله در ستون و سطر آنچنان که لازم است </p>
+                <p>
+                    <a class="button-style btn px-4 py-2 rounded-pill" target="_blanck"
+                       href="https://colorlib.com/preview/#fox">اعمال کردن</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- request quote section -->
+<section class="request-section parallax-box">
+    <div class="container-md">
+        <div class="row">
+            <div class="col-md-6 py-5 px-md-5">
+                <div class="mb-5 request-title pt-5">
+                    <h2 class="mb-4">استعلام قیمت</h2>
+                    <p>لورم ایپسوم متن ساختگی با تولید
+                        سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
+                        روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- request quote section -->
-    <section class="request-section parallax-box">
-        <div class="container-md">
-            <div class="row">
-                <div class="col-md-6 py-5 px-md-5">
-                    <div class="mb-5 request-title pt-5">
-                        <h2 class="mb-4">استعلام قیمت</h2>
-                        <p>لورم ایپسوم متن ساختگی با تولید
-                            سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه
-                            روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
-                        </p>
+                <form action="#" class="pb-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" placeholder="نام" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" placeholder="نام خانوادگی" class="form-control">
+                        </div>
                     </div>
-                    <form action="#" class="pb-5">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" placeholder="نام" class="form-control">
+                    <div class="row">
+                        <div class="col-md-6 position-relative">
+                            <div class="select-course-icon">
+                                <span class="fas fa-angle-down arrow-down"></span>
                             </div>
-                            <div class="col-md-6">
-                                <input type="text" placeholder="نام خانوادگی" class="form-control">
-                            </div>
+                            <select class="form-select form-control" aria-label="Default select example">
+                                <option selected>انتخاب دوره</option>
+                                <option value="art">هنرهای تجسمی</option>
+                                <option value="language">زبان های خارجی</option>
+                                <option value="music">موزیک</option>
+                                <option value="sport">ورزش</option>
+                                <option value="other">دیگر دوره ها</option>
+                            </select>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 position-relative">
-                                <div class="select-course-icon">
-                                    <span class="fas fa-angle-down arrow-down"></span>
-                                </div>
-                                <select class="form-select form-control" aria-label="Default select example">
-                                    <option selected>انتخاب دوره</option>
-                                    <option value="art">هنرهای تجسمی</option>
-                                    <option value="language">زبان های خارجی</option>
-                                    <option value="music">موزیک</option>
-                                    <option value="sport">ورزش</option>
-                                    <option value="other">دیگر دوره ها</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="تلفن">
-                            </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="تلفن">
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
                                 <textarea cols="30" rows="2" placeholder="متن پیام"
-                                    class="form-control request-textarea"></textarea>
-                            </div>
-                            <div class="col-md-6 request-btn">
-                                <input type="submit" value="استعلام قیمت" class="btn btn-primary py-3 px-4">
-                            </div>
+                                          class="form-control request-textarea"></textarea>
                         </div>
-                    </form>
-                </div>
+                        <div class="col-md-6 request-btn">
+                            <input type="submit" value="استعلام قیمت" class="btn btn-primary py-3 px-4">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!--define blog-section -->
-    <section class="gray-background pt-5 pb-3">
-        <div class="container">
-            <div class="row">
-                <div class="head-blog text-center w-75 mx-auto mb-5">
-                    <h2 class="mt-2">صفحه اخیر</h2>
-                    <p class="mb-3 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                        اربردی می باشد.</p>
-                </div>
+<!--define blog-section -->
+<section class="gray-background pt-5 pb-3">
+    <div class="container">
+        <div class="row">
+            <div class="head-blog text-center w-75 mx-auto mb-5">
+                <h2 class="mt-2">صفحه اخیر</h2>
+                <p class="mb-3 mt-2">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                    طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                    اربردی می باشد.</p>
             </div>
-            <div class="row mb-5">
-                <div class="col-md-4 col-sm-12 col-lg-4">
-                    <div class="card mb-3">
-                        <div class="position-relative">
-                            <a href="#">
-                                <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
-                                <div class="date">
-                                    <div class="day">15</div>
-                                    <div class="month">اسفند</div>
-                                    <div class="year">1400</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
-                                که
-                                لازم
-                                است.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
-                                        class="fas fa-arrow-left"></i></a>
-                                <a href="#" class="card-link text-danger">مدیر</a>
-                                <i class="fas fa-comment-dots mx-1"></i>
-                                <span class="color-message">3</span>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="position-relative">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
+                            <div class="date">
+                                <div class="day">15</div>
+                                <div class="month">اسفند</div>
+                                <div class="year">1400</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-12 col-lg-4">
-                    <div class="card mb-3">
-                        <div class="position-relative">
-                            <a href="#">
-                                <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
-                                <div class="date">
-                                    <div class="day">15</div>
-                                    <div class="month">اسفند</div>
-                                    <div class="year">1400</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
-                                که
-                                لازم
-                                است.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
-                                        class="fas fa-arrow-left"></i></a>
-                                <a href="#" class="card-link text-danger">مدیر</a>
-                                <i class="fas fa-comment-dots mx-1"></i>
-                                <span class="color-message">3</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-12 col-lg-4">
-                    <div class="card mb-3">
-                        <div class="position-relative">
-                            <a href="#">
-                                <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
-                                <div class="date">
-                                    <div class="day">15</div>
-                                    <div class="month">اسفند</div>
-                                    <div class="year">1400</div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
-                            <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
-                                چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
-                                که
-                                لازم
-                                است.</p>
-                            <div class="d-flex align-items-center mt-4">
-                                <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
-                                        class="fas fa-arrow-left"></i></a>
-                                <a href="#" class="card-link text-danger">مدیر</a>
-                                <i class="fas fa-comment-dots mx-1"></i>
-                                <span class="color-message">3</span>
-                            </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
+                            که
+                            لازم
+                            است.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
+                                    class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="card-link text-danger">مدیر</a>
+                            <i class="fas fa-comment-dots mx-1"></i>
+                            <span class="color-message">3</span>
                         </div>
                     </div>
                 </div>
             </div>
-    </section>
-
-    <!-- testimony -->
-    <section class="mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 text-center head-section">
-                    <h2 class="mb-4">دانش آموزان درباره ما چه می گویند!</h2>
-                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
-                        طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
-                        شرایط فعلی تکنولوژی مورد نیاز</p>
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="position-relative">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
+                            <div class="date">
+                                <div class="day">15</div>
+                                <div class="month">اسفند</div>
+                                <div class="year">1400</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
+                            که
+                            لازم
+                            است.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
+                                    class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="card-link text-danger">مدیر</a>
+                            <i class="fas fa-comment-dots mx-1"></i>
+                            <span class="color-message">3</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 col-lg-8 offset-lg-2">
-                    <div class="owl-carousel owl-theme owl-slider">
-                        <div class="item-card d-sm-flex">
-                            <img src="./img/owl/1.jpg">
-                            <div class="text-quote">
-                                <i class="fas fa-quote-right"></i>
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
-                                <div class="testimony">
-                                    <span class="d-block">امیر جمشیدی</span>
-                                    <span class="d-block text-color">برنامه ریز</span>
-                                </div>
+            <div class="col-md-4 col-sm-12 col-lg-4">
+                <div class="card mb-3">
+                    <div class="position-relative">
+                        <a href="#">
+                            <img class="card-img-top" src="./img/about-2.jpg" alt="Card image cap">
+                            <div class="date">
+                                <div class="day">15</div>
+                                <div class="month">اسفند</div>
+                                <div class="year">1400</div>
                             </div>
-                        </div>
-
-                        <div class="item-card d-sm-flex">
-                            <img src="./img/owl/2.jpg">
-                            <div class="text-quote">
-                                <i class="fas fa-quote-right"></i>
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-                                </p>
-                                <div class="testimony">
-                                    <span class="d-block">محمد سیفی</span>
-                                    <span class="d-block text-color">مهندس </span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-card d-sm-flex">
-                            <img src="./img/owl/3.jpg">
-                            <div class="text-quote">
-                                <i class="fas fa-quote-right"></i>
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-                                </p>
-                                <div class="testimony">
-                                    <span class="d-block">نعیم احمدیان</span>
-                                    <span class="d-block text-color">مهندس</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-card d-sm-flex">
-                            <img src="./img/owl/4.jpg">
-                            <div class="text-quote">
-                                <i class="fas fa-quote-right"></i>
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
-                                    گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-                                </p>
-                                <div class="testimony">
-                                    <span class="d-block">محمد تختکشها</span>
-                                    <span class="d-block text-color">مدیر</span>
-                                </div>
-                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#">لورم ایپسوم متن ساختگی با تولید از صنعت چاپ</a></h4>
+                        <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                            چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و در ستون و آنچنان
+                            که
+                            لازم
+                            است.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <a href="#" class="card-link btn btn-primary">بیشتر بخوانید<i
+                                    class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="card-link text-danger">مدیر</a>
+                            <i class="fas fa-comment-dots mx-1"></i>
+                            <span class="color-message">3</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="gallery">
-        <div class="container-wrap">
-            <div class="row gap-image">
-                <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_1.jpg"></a></div>
-                <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_2.jpg"></a></div>
-                <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_3.jpg"></a></div>
-                <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_4.jpg"></a></div>
+    </div>
+</section>
+
+<!-- testimony -->
+<section class="mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center head-section">
+                <h2 class="mb-4">دانش آموزان درباره ما چه می گویند!</h2>
+                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                    طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای
+                    شرایط فعلی تکنولوژی مورد نیاز</p>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="col-md-12 col-lg-8 offset-lg-2">
+                <div class="owl-carousel owl-theme owl-slider">
+                    <div class="item-card d-sm-flex">
+                        <img src="./img/owl/1.jpg">
+                        <div class="text-quote">
+                            <i class="fas fa-quote-right"></i>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                            <div class="testimony">
+                                <span class="d-block">امیر جمشیدی</span>
+                                <span class="d-block text-color">برنامه ریز</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-card d-sm-flex">
+                        <img src="./img/owl/2.jpg">
+                        <div class="text-quote">
+                            <i class="fas fa-quote-right"></i>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از
+                                طراحان
+                                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                                است.
+                            </p>
+                            <div class="testimony">
+                                <span class="d-block">محمد سیفی</span>
+                                <span class="d-block text-color">مهندس </span>
+                            </div>
 
+                        </div>
+                    </div>
+                    <div class="item-card d-sm-flex">
+                        <img src="./img/owl/3.jpg">
+                        <div class="text-quote">
+                            <i class="fas fa-quote-right"></i>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                            </p>
+                            <div class="testimony">
+                                <span class="d-block">نعیم احمدیان</span>
+                                <span class="d-block text-color">مهندس</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-card d-sm-flex">
+                        <img src="./img/owl/4.jpg">
+                        <div class="text-quote">
+                            <i class="fas fa-quote-right"></i>
+                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                            </p>
+                            <div class="testimony">
+                                <span class="d-block">محمد تختکشها</span>
+                                <span class="d-block text-color">مدیر</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gallery">
+    <div class="container-wrap">
+        <div class="row gap-image">
+            <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_1.jpg"></a></div>
+            <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_2.jpg"></a></div>
+            <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_3.jpg"></a></div>
+            <div class="col-md-3 col-sm-6 gallery"><a href="#"><img src="./img/testimony image/image_4.jpg"></a></div>
+        </div>
+    </div>
+</section>
+<footer class="bg-footer">
+    <div class="container mt-0">
+        <div class="row text-white pt-5">
+            <div class="col-md-3">
+                <h5 class="footer-section">سوالتان را بپرسید؟</h5>
+                <div class="list-group">
+                    <ul class="list-unstyled mt-3">
+                        <li><a class="color-map" href="#"><i class="fas fa-map-marker-alt"></i>تهران،
+                            مفتح، جنب
+                            خیابان جهانتاب</a></li>
+                        <li><a class="phone-color" href="#"><i class="fas fa-phone "></i>88888888
+                            021</a></li>
+                        <li><a class="envelope-color" href="#"><i
+                                class="fas fa-envelope"></i>info@bahmanpardaz.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-section">صفحه اخیر</h5>
+                <div class="media mt-3 d-flex">
+                    <img class="ml-3 mt-1 rounded" src="./img/owl/3.jpg">
+                    <div class="media-body mt-1">
+                        <p><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</a>
+                        </p>
+                        <div class="meta d-flex justify-content-around">
+                            <div><a href="#"><span class="calendar"><i
+                                    class="fas fa-calendar-alt"></i></span> 10،
+                                دی ماه</a></div>
+                            <div><a href="#"><span class="user"><i class="fas fa-user-alt"></i></span>
+                                مدیر</a>
+                            </div>
+                            <div><a href="#"><span class="comment"><i
+                                    class="fas fa-comment-alt"></i></span>19</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media d-flex mt-5">
+                    <img class="ml-3 mt-1 rounded" src="./img/owl/2.jpg">
+                    <div class="media-body mt-1">
+                        <p><a href="#">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت</a>
+                        </p>
+                        <div class="meta d-flex justify-content-around">
+                            <div class="d-inline"><a href="#"><span class="calendar"><i
+                                    class="fas fa-calendar-alt"></i></span> 10، دی ماه</a></div>
+                            <div><a href="#"><span class="user"><i class="fas fa-user-alt"></i></span>
+                                مدیر</a>
+                            </div>
+                            <div><a href="#"><span class="comment"><i
+                                    class="fas fa-comment-alt"></i></span>19</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-section mx-4">لینک ها</h5>
+                <div class="footer-links mx-4 my-2">
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-long-arrow-alt-left"></i><a href="#">خانه</a></li>
+                        <li><i class="fas fa-long-arrow-alt-left"></i><a href="#">درباره ما</a>
+                        </li>
+                        <li><i class="fas fa-long-arrow-alt-left"></i><a href="#">سرویس ها</a>
+                        </li>
+                        <li><i class="fas fa-long-arrow-alt-left"></i><a href="#">دپارتمان</a>
+                        </li>
+                        <li><i class="fas fa-long-arrow-alt-left"></i><a href="#">مخاطبین</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-section">ما را دنبال کنید</h5>
+                <form>
+                    <div class="mb-3 d-flex">
+                        <input type="email" class="form-control mt-3 custom-form"
+                               aria-describedby="emailHelp"
+                               placeholder="ایمیل خود را وارد کنید">
+                    </div>
+                    <div class="d-grid gap-2 col-12 mx-auto">
+                        <button class="btn btn-primary subscribe" type="button">ما را دنبال
+                            کنید
+                        </button>
+                    </div>
+                </form>
+                <h5 class="mt-5">به ما بپیوندید!</h5>
+                <div class="social mt-4">
+                    <span><i class="fab fa-facebook-square"></i></span>
+                    <span><i class="fab fa-twitter-square"></i></span>
+                    <span><i class="fab fa-instagram-square"></i></span>
+                </div>
+            </div>
+            <p class="copyright mt-5 text-center">&copy;استفاده از مطالب سایت تنها با درج لینک مستقیم به آن مطلب مجاز
+                است.</p>
+        </div>
+    </div>
+</footer>
 
-
-
-    <script src="libraries/jquery-3.6.0.min.js"></script>
-    <script src="libraries/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
-    <script src="libraries/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/note.js"></script>
-    <script src="libraries/slick-1.8.1/slick/slick.min.js"></script>
-    <script src="js/front-page.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/parallax.js"></script>
+<script src="libraries/jquery-3.6.0.min.js"></script>
+<script src="libraries/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="libraries/bootstrap-5.0.0-beta3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/note.js"></script>
+<script src="libraries/slick-1.8.1/slick/slick.min.js"></script>
+<script src="js/front-page.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/parallax.js"></script>
 </body>
 
 </html>

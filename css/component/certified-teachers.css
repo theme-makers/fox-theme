@@ -1,0 +1,97 @@
+
+.certifeidteachers {
+    background-color: #f8f9fa;
+}
+
+.certifeidteachers .section-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.certifeidteachers .section-text {
+    text-align: center;
+    font-size: large;
+    color: #666;
+}
+
+.certifeidteachers .item {
+    text-align: center;
+    position: relative;
+}
+
+.certifeidteachers .item .image {
+    overflow: hidden;
+    position: relative;
+}
+
+.certifeidteachers .item .image img {
+    transition: .3s;
+
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.certifeidteachers .item .icon {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.certifeidteachers .item .icon ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-right: 0;
+}
+
+.certifeidteachers .item .icon ul li {
+    margin: 0 8px;
+
+}
+
+.certifeidteachers .item .icon ul li a {
+    color: darkorange;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.certifeidteachers .item .user-name a{
+    color: rgba(0,0,0,0.8);
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+.certifeidteachers .item .person-rule {
+    text-align: center;
+    color: red;
+    font-size: .9rem;
+}
+.certifeidteachers .item .item-body{
+    color: #666;
+    font-size: .9em;
+}
+.certifeidteachers .item:hover .image img {
+
+    transform: scale(1.05) translateY(-10px);
+    opacity: 1;
+}
+
+.certifeidteachers .item:hover .user-name a {
+    color: darkorange;
+}
+
+.certifeidteachers .item:hover .icon {
+    bottom: 10px;
+    opacity: 1;
+}
+    
+ 
+
